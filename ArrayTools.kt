@@ -33,7 +33,7 @@ fun main() {
             2 -> {
                 println("Enter elements of the array separated by spaces:")
                 val input = readLine()
-                val array = input?.split(" ")?.mapNotNull { it.toIntOrNull() }?.toIntArray()
+                val array = input?.split(" ")?.mapNotNull { it.toIntOrNull() }?.toIntArray()    // To take array element input space separated numerics
                 if (array != null && array.isNotEmpty()) {
                     val average = calculateAverage(array)
                     println("The average is: $average")
@@ -44,7 +44,7 @@ fun main() {
             3 -> {
                 println("Enter elements of the array separated by spaces:")
                 val input = readLine()
-                val array = input?.split(" ")?.mapNotNull { it.toIntOrNull() }?.toIntArray()
+                val array = input?.split(" ")?.mapNotNull { it.toIntOrNull() }?.toIntArray()  // To take array element input space separated numerics
                 if (array != null && array.isNotEmpty()) {
                     println("Enter the value to check:")
                     val value = readLine()?.toIntOrNull()
@@ -65,7 +65,7 @@ fun main() {
             4 -> {
                 println("Enter elements of the array separated by spaces:")
                 val input = readLine()
-                val array = input?.split(" ")?.mapNotNull { it.toIntOrNull() }?.toIntArray()
+                val array = input?.split(" ")?.mapNotNull { it.toIntOrNull() }?.toIntArray()    // To take array element input space separated numerics
                 if (array != null && array.isNotEmpty()) {
                     val reversedArray = reverseArray(array)
                     println("Reversed array: ${reversedArray.joinToString(", ")}")
