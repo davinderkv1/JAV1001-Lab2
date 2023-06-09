@@ -1,3 +1,12 @@
+/*
+ArrayTools.kt Write a small Kotlin command line application (ArrayTools.kt) that provides useful tools to developers:
+1. encrypt Create a Caesar cipher function that accepts a String (the String to encrypt), a shift value, and returns the new String.
+2. arrayAvg Write a function that accepts an array and produces the average of all values (array should be numeric type)
+3. arrayContains Write a function that accepts an array and a search value, and determines if the array contains the value (true/false) (the array can use any data type you want)
+4. reverse Write a function that reverses an array (gives a new array) (the array can use any data type you want)
+*/
+
+
 fun main() {
     println("----------------> Lab 2 - Functions and Arrays <----------------\n\n")
     println("1. Encrypt a string using Caesar cipher")
